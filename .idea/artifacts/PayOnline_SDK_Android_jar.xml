@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PayOnline.SDK.Android:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PayOnline_SDK_Android_jar</output-path>
+    <root id="archive" name="PayOnline.SDK.Android.jar">
+      <element id="module-output" name="PayOnline.SDK.Android" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/libs/com.sun.net.ssl.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
