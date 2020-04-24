@@ -41,6 +41,16 @@ class PayRequest: Serializable {
     var zip: String? = null
     var phone: String? = null
     var issuer: String? = null
+
+    /**
+     * accountId, posTransactionId, serviceType for mtt merchants.
+     *
+     */
+    var accountId: String? = null
+    var posTransactionId: String? = null
+    var serviceType: String? = null
+    var returnUrl: String? = null
+
     var custom: String? = null
 
     fun getAmount(): String {

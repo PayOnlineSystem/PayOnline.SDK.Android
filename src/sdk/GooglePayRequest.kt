@@ -62,6 +62,16 @@ class GooglePayRequest {
         set(value) {
             field = PayOnlineUtils.toUTF8(value.toString())
         }
+
+    /**
+     * accountId, posTransactionId, serviceType for mtt merchants.
+     *
+     */
+    var accountId: String? = null
+    var posTransactionId: String? = null
+    var serviceType: String? = null
+    var returnUrl: String? = null
+
     var custom: String? = null
         set(value) {
             field = PayOnlineUtils.toUTF8(value.toString())

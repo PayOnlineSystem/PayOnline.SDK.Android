@@ -7,6 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b20d714d-06b5-44f5-bfa8-e6a09665fcb6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdk/GooglePayRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdk/GooglePayRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdk/PayRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdk/PayRequest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sdk/PaymentClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdk/PaymentClient.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -54,8 +57,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sdk/DefaultPaymentSetting.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            <state relative-caret-position="-74">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sdk/SSLUtilities.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -70,19 +82,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib.jar!/META-INF/MANIFEST.MF">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sdk/GooglePayRequest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="62" column="59" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
+            <state relative-caret-position="292">
+              <caret line="70" column="34" lean-forward="true" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
               <folding>
                 <element signature="e#13#107#0" expanded="true" />
               </folding>
@@ -93,8 +96,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sdk/PaymentClient.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4034">
-              <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+            <state relative-caret-position="496">
+              <caret line="172" column="9" selection-start-line="172" selection-start-column="9" selection-end-line="172" selection-end-column="9" />
               <folding>
                 <element signature="n#!!block;n#fiscal#0;n#!!block;n#PaymentClient#0" />
               </folding>
@@ -103,10 +106,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../PayOnline.Android.Sample/app/src/main/java/com/payonline/sampleapplication/MainActivity.kt">
+        <entry file="file://$PROJECT_DIR$/src/sdk/PayRequest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2431">
-              <caret line="154" column="8" selection-start-line="154" selection-start-column="8" selection-end-line="154" selection-end-column="45" />
+            <state relative-caret-position="400">
+              <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -114,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sdk/PayResponse.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="238">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -139,15 +142,16 @@
         <option value="$PROJECT_DIR$/src/sdk/FiscalRequest.kt" />
         <option value="$PROJECT_DIR$/src/sdk/PayOnlineUtils.kt" />
         <option value="$PROJECT_DIR$/src/sdk/GooglePayResponse.kt" />
-        <option value="$PROJECT_DIR$/src/sdk/GooglePayRequest.kt" />
         <option value="$PROJECT_DIR$/src/sdk/PayResponse.kt" />
+        <option value="$PROJECT_DIR$/src/sdk/PayRequest.kt" />
+        <option value="$PROJECT_DIR$/src/sdk/GooglePayRequest.kt" />
         <option value="$PROJECT_DIR$/src/sdk/PaymentClient.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="297" />
-    <option name="y" value="175" />
+    <option name="x" value="-1615" />
+    <option name="y" value="107" />
     <option name="width" value="1400" />
     <option name="height" value="830" />
   </component>
@@ -156,6 +160,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -163,11 +168,6 @@
             <path>
               <item name="PayOnline.SDK.Android" type="b2602c69:ProjectViewProjectNode" />
               <item name="PayOnline.SDK.Android" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PayOnline.SDK.Android" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PayOnline.SDK.Android" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PayOnline.SDK.Android" type="b2602c69:ProjectViewProjectNode" />
@@ -188,7 +188,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,9 +242,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="297" y="175" width="1400" height="830" extended-state="0" />
+    <frame x="-1615" y="107" width="1400" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4968017" visible="true" weight="0.2828358" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4968017" visible="true" weight="0.28731343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -258,11 +258,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49701494" visible="true" weight="0.32855093" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49626866" weight="0.32855093" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49925372" weight="0.32855093" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50298506" side_tool="true" visible="true" weight="0.32855093" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50671643" side_tool="true" weight="0.32998565" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49552238" weight="0.32998565" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49328357" weight="0.32998565" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -282,6 +282,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sdk/GooglePayResponse.kt" />
+    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib.jar!/META-INF/MANIFEST.MF" />
+    <entry file="file://$PROJECT_DIR$/../PayOnline.Android.Sample/app/src/main/java/com/payonline/sampleapplication/MainActivity.kt" />
     <entry file="file://$PROJECT_DIR$/src/sdk/FiscalResponse.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -302,10 +304,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sdk/PayResponse.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sdk/DefaultPaymentSetting.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        <state relative-caret-position="-74">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sdk/PayRequest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sdk/GooglePayRequest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="70" column="34" lean-forward="true" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+          <folding>
+            <element signature="e#13#107#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -316,41 +342,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/kotlin-stdlib.jar!/META-INF/MANIFEST.MF">
+    <entry file="file://$PROJECT_DIR$/src/sdk/SSLUtilities.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sdk/GooglePayRequest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="62" column="59" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
-          <folding>
-            <element signature="e#13#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PayOnline.Android.Sample/app/src/main/java/com/payonline/sampleapplication/MainActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
-          <caret line="154" column="8" selection-start-line="154" selection-start-column="8" selection-end-line="154" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sdk/PayResponse.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="317">
+          <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sdk/PaymentClient.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4034">
-          <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+        <state relative-caret-position="496">
+          <caret line="172" column="9" selection-start-line="172" selection-start-column="9" selection-end-line="172" selection-end-column="9" />
           <folding>
             <element signature="n#!!block;n#fiscal#0;n#!!block;n#PaymentClient#0" />
           </folding>

@@ -107,6 +107,18 @@ class PaymentClient {
         query["Amount"] = request.getAmount()
         query["Currency"] = PayOnlineUtils.urlEncodeUTF8(request.currency)
 
+        if (!PayOnlineUtils.stringIsNullOrWhiteSpace(request.accountId)) {
+            query["AccountId"] = request.accountId.toString()
+        }
+
+        if (!PayOnlineUtils.stringIsNullOrWhiteSpace(request.posTransactionId)) {
+            query["PosTransactionId"] = request.posTransactionId.toString()
+        }
+
+        if (!PayOnlineUtils.stringIsNullOrWhiteSpace(request.serviceType)) {
+            query["ServiceType"] = request.serviceType.toString()
+        }
+
         val signature = LinkedHashMap(query)
         if (!PayOnlineUtils.stringIsNullOrWhiteSpace(request.orderDescription)) {
             signature["OrderDescription"] = request.orderDescription
@@ -156,6 +168,10 @@ class PaymentClient {
             query["Issuer"] = PayOnlineUtils.urlEncodeUTF8(request.issuer!!)
         }
 
+        if (!PayOnlineUtils.stringIsNullOrWhiteSpace(request.returnUrl)) {
+            query["ReturnUrl"] = request.returnUrl.toString()
+        }
+
         val url = StringBuilder()
         url.append(this.settings.host)
         url.append("payment/transaction/auth/")
@@ -179,6 +195,18 @@ class PaymentClient {
         query["OrderId"] = request.orderId.toString()
         query["Amount"] = request.getAmount()
         query["Currency"] = request.currency.toString()
+
+        if (!PayOnlineUtils.stringIsNullOrWhiteSpace(request.accountId)) {
+            query["AccountId"] = request.accountId.toString()
+        }
+
+        if (!PayOnlineUtils.stringIsNullOrWhiteSpace(request.posTransactionId)) {
+            query["PosTransactionId"] = request.posTransactionId.toString()
+        }
+
+        if (!PayOnlineUtils.stringIsNullOrWhiteSpace(request.serviceType)) {
+            query["ServiceType"] = request.serviceType.toString()
+        }
 
         val signature = LinkedHashMap(query)
         if (!PayOnlineUtils.stringIsNullOrWhiteSpace(request.orderDescription)) {
@@ -228,6 +256,10 @@ class PaymentClient {
         }
         if (!PayOnlineUtils.stringIsNullOrWhiteSpace(request.googlePaymentToken)) {
             query["PaymentToken"] = request.googlePaymentToken.toString()
+        }
+
+        if (!PayOnlineUtils.stringIsNullOrWhiteSpace(request.returnUrl)) {
+            query["ReturnUrl"] = request.returnUrl.toString()
         }
 
         val url = StringBuilder()
