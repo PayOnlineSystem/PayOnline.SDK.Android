@@ -196,16 +196,8 @@ class PaymentClient {
         query["Amount"] = request.getAmount()
         query["Currency"] = request.currency.toString()
 
-        if (!PayOnlineUtils.stringIsNullOrWhiteSpace(request.accountId)) {
-            query["AccountId"] = request.accountId.toString()
-        }
-
-        if (!PayOnlineUtils.stringIsNullOrWhiteSpace(request.posTransactionId)) {
-            query["PosTransactionId"] = request.posTransactionId.toString()
-        }
-
-        if (!PayOnlineUtils.stringIsNullOrWhiteSpace(request.serviceType)) {
-            query["ServiceType"] = request.serviceType.toString()
+        if (!PayOnlineUtils.stringIsNullOrWhiteSpace(request.googlePaymentToken)) {
+            query["PaymentToken"] = request.googlePaymentToken.toString()
         }
 
         val signature = LinkedHashMap(query)
@@ -254,8 +246,17 @@ class PaymentClient {
         if (!PayOnlineUtils.stringIsNullOrWhiteSpace(request.googleMerchantId)) {
             query["GoogleMerchantId"] = request.googleMerchantId.toString()
         }
-        if (!PayOnlineUtils.stringIsNullOrWhiteSpace(request.googlePaymentToken)) {
-            query["PaymentToken"] = request.googlePaymentToken.toString()
+
+        if (!PayOnlineUtils.stringIsNullOrWhiteSpace(request.accountId)) {
+            query["AccountId"] = request.accountId.toString()
+        }
+
+        if (!PayOnlineUtils.stringIsNullOrWhiteSpace(request.posTransactionId)) {
+            query["PosTransactionId"] = request.posTransactionId.toString()
+        }
+
+        if (!PayOnlineUtils.stringIsNullOrWhiteSpace(request.serviceType)) {
+            query["ServiceType"] = request.serviceType.toString()
         }
 
         if (!PayOnlineUtils.stringIsNullOrWhiteSpace(request.returnUrl)) {
